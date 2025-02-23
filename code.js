@@ -21,5 +21,6 @@ const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${a
   } else {
     const data = await fetchData(name);
     console.log(data);
+  }
   })
 });
