@@ -10,7 +10,6 @@ const response = await fetch(`https://api.weatherapi.com/v1/current.json?key=${a
     const responseJSON = await response.json();
     return responseJSON;
   }
-  fetchData('Moscow');
-  fetchData('Sochi');
-  fetchData('Yaroslavl');
+  buttonSearch.addEventListener ('click', () => {
+  });
 });
